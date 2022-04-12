@@ -22,11 +22,10 @@ int main(){
     //      - Electric
     //  + Klasa Hybrid
 
-    //Predkosc jest zwiekszana
-    //car2.uruchom();
-    //car2.przyspiesz();
-    
+    //Funkcja przyśpiesz i hamuj działa w klasach pochodnych
     car4.uruchom();
+    car4.przyspiesz();
+    car4.przyspiesz();
     car4.przyspiesz();
     car4.przyspiesz();
     car4.przyspiesz();
