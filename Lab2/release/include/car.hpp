@@ -8,7 +8,9 @@ class Car{
     void biegNastepny();
     void biegPoprzedni();
 public:
+    static int liczbaSamochodow;
     Car(int rocznik_, int moc_, int przyspieszenie_, int zasieg_, std::string rodzaj_, std::string marka_, std::string model_);
+    ~Car();
     void uruchom();
     void wylacz();
     void przyspiesz();

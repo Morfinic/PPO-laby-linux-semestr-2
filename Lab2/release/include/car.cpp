@@ -1,6 +1,8 @@
 #include "car.hpp"
 #include <iostream>
 
+int Car::liczbaSamochodow{0};
+
 Car::Car(int rocznik_, int moc_, int przyspieszenie_, int zasieg_, std::string rodzaj_, std::string marka_, std::string model_):
     rocznik(rocznik_),
     moc(moc_),
@@ -14,6 +16,15 @@ Car::Car(int rocznik_, int moc_, int przyspieszenie_, int zasieg_, std::string r
     stanSilnika(false)
 {
     std::cout << "Konstruktor klasy Car\n";
+    liczbaSamochodow++;
+    std::cout << "Liczba samochodow: " << liczbaSamochodow << "\n";
+}
+
+Car::~Car()
+{
+    std::cout << "Destruktor klasy Car\n";
+    liczbaSamochodow--;
+    std::cout << "Liczba samochodow: " << liczbaSamochodow << "\n";
 }
 
 void Car::uruchom(){

@@ -8,8 +8,18 @@ Electric::Electric(int rocznik_, int moc_, int przyspieszenie_, int zasieg_, std
     std::cout << "Konstruktor klasy Electric\n";
 }
 
+Electric::~Electric()
+{
+    std::cout << "Destruktor klasy Electric\n";
+}
+
 void Electric::pokaz()
 {
     Car::pokaz();
+    std::cout << "Poziom baterii: " << poziomBaterii << "\n";
+}
+
+void Electric::pokazPoziomBaterii()
+{
     std::cout << "Poziom baterii: " << poziomBaterii << "\n";
 }

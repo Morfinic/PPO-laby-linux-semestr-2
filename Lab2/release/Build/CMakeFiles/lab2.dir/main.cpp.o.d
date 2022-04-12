@@ -130,6 +130,7 @@ CMakeFiles/lab2.dir/main.cpp.o: \
  /usr/include/c++/11.2.0/bits/basic_ios.tcc \
  /usr/include/c++/11.2.0/bits/ostream.tcc /usr/include/c++/11.2.0/istream \
  /usr/include/c++/11.2.0/bits/istream.tcc \
+ /home/morfinic/Programming/PPO-laby-linux/Lab2/release/include/hybrid.hpp \
  /home/morfinic/Programming/PPO-laby-linux/Lab2/release/include/gas.hpp \
  /home/morfinic/Programming/PPO-laby-linux/Lab2/release/include/car.hpp \
  /home/morfinic/Programming/PPO-laby-linux/Lab2/release/include/electric.hpp

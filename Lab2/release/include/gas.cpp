@@ -8,8 +8,18 @@ Gas::Gas(int rocznik_, int moc_, int przyspieszenie_, int zasieg_, std::string r
     std::cout << "Konstruktor klasy Gas\n";
 }
 
+Gas::~Gas()
+{
+    std::cout << "Destruktor klasy Gas\n";
+}
+
 void Gas::pokaz()
 {
     Car::pokaz();
+    std::cout << "Typ paliwa: " << typPaliwa << "\n";
+}
+
+void Gas::pokazTypPaliwa()
+{
     std::cout << "Typ paliwa: " << typPaliwa << "\n";
 }

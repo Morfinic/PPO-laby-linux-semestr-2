@@ -201,6 +201,30 @@ include/gas.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab2.dir/build.make CMakeFiles/lab2.dir/include/gas.cpp.s
 .PHONY : include/gas.cpp.s
 
+include/hybrid.o: include/hybrid.cpp.o
+.PHONY : include/hybrid.o
+
+# target to build an object file
+include/hybrid.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab2.dir/build.make CMakeFiles/lab2.dir/include/hybrid.cpp.o
+.PHONY : include/hybrid.cpp.o
+
+include/hybrid.i: include/hybrid.cpp.i
+.PHONY : include/hybrid.i
+
+# target to preprocess a source file
+include/hybrid.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab2.dir/build.make CMakeFiles/lab2.dir/include/hybrid.cpp.i
+.PHONY : include/hybrid.cpp.i
+
+include/hybrid.s: include/hybrid.cpp.s
+.PHONY : include/hybrid.s
+
+# target to generate assembly for a file
+include/hybrid.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab2.dir/build.make CMakeFiles/lab2.dir/include/hybrid.cpp.s
+.PHONY : include/hybrid.cpp.s
+
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -243,6 +267,9 @@ help:
 	@echo "... include/gas.o"
 	@echo "... include/gas.i"
 	@echo "... include/gas.s"
+	@echo "... include/hybrid.o"
+	@echo "... include/hybrid.i"
+	@echo "... include/hybrid.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
