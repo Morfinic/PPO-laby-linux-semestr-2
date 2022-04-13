@@ -1,0 +1,1 @@
+/usr/bin/c++ -O3 -DNDEBUG CMakeFiles/lab3.dir/main.cpp.o CMakeFiles/lab3.dir/include/wektor2d.cpp.o -o lab3 

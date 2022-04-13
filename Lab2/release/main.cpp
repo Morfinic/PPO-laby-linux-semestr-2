@@ -31,17 +31,17 @@ int main(){
     car4.przyspiesz();
     car4.hamuj();
 
-    std::cout<<"\nCar 1\n";
-    car1.pokaz();
-    std::cout<<"\n\n";
+    //std::cout<<"\nCar 1\n";
+    //car1.pokaz();
+    //std::cout<<"\n\n";
 
-    std::cout<<"\nCar 2\n";
-    car2.pokaz();
-    std::cout<<"\n\n";
+    //std::cout<<"\nCar 2\n";
+    //car2.pokaz();
+    //std::cout<<"\n\n";
 
-    std::cout<<"\nCar 3\n";
-    car3.pokaz();
-    std::cout<<"\n\n";
+    //std::cout<<"\nCar 3\n";
+    //car3.pokaz();
+    //std::cout<<"\n\n";
 
     std::cout<<"\nCar 4\n";
     car4.pokaz();
