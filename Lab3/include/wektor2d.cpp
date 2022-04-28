@@ -1,21 +1,31 @@
-#include "wektor2d.hpp"
+#include <iostream>
 #include <math.h>
+#include "wektor2d.hpp"
 
-Wektor2D::Wektor2D(float x_, float y_):
-    x(x_),
-    y(y_) {}
+Wektor2D::Wektor2D(int _x, int _y): Wektor(_x, _y) {};
 
-float Wektor2D::dlugoscWektora(float x, float y)
+void Wektor2D::print()
 {
-    return sqrt(x*x + y*y);
+    std::cout << "Wektor2D: [" << Wektor::getX() << ", " << Wektor::getY() << "]\n";
+};
+
+float Wektor2D::dlugosc()
+{
+    return sqrt(pow(Wektor::getX(), 2) + pow(Wektor::getY(), 2));
 }
 
-float Wektor2D::getX()
+void Wektor2D::mnozeniePrzezLiczbe(int liczba)
 {
-    return x;
+    Wektor::setX(Wektor::getX() * liczba);
+    Wektor::setY(Wektor::getY() * liczba);
+};
+
+Wektor2D Wektor2D::operator+(Wektor2D &w)
+{
+    return Wektor2D(Wektor::getX() + w.getX(), Wektor::getY() + w.getY());
 }
 
-float Wektor2D::getY()
+Wektor2D Wektor2D::operator-(Wektor2D &w)
 {
-    return y;
+    return Wektor2D(Wektor::getX() - w.getX(), Wektor::getY() - w.getY());
 }

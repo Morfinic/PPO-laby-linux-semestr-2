@@ -1,5 +1,5 @@
 CMakeFiles/lab3.dir/main.cpp.o: \
- /home/morfinic/Programming/PPO-laby-linux/Lab3/main.cpp \
+ /home/morfinic/Programming/PPO-laby-linux/Lab3/vectorsVer/main.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/11.2.0/iostream \
  /usr/include/c++/11.2.0/x86_64-pc-linux-gnu/bits/c++config.h \
  /usr/include/c++/11.2.0/x86_64-pc-linux-gnu/bits/os_defines.h \
@@ -130,5 +130,6 @@ CMakeFiles/lab3.dir/main.cpp.o: \
  /usr/include/c++/11.2.0/bits/basic_ios.tcc \
  /usr/include/c++/11.2.0/bits/ostream.tcc /usr/include/c++/11.2.0/istream \
  /usr/include/c++/11.2.0/bits/istream.tcc \
- /home/morfinic/Programming/PPO-laby-linux/Lab3/include/wektor2d.hpp \
- /home/morfinic/Programming/PPO-laby-linux/Lab3/include/wektor.hpp
+ /home/morfinic/Programming/PPO-laby-linux/Lab3/vectorsVer/include/wektor2d.hpp \
+ /home/morfinic/Programming/PPO-laby-linux/Lab3/vectorsVer/include/wektor.hpp \
+ /home/morfinic/Programming/PPO-laby-linux/Lab3/vectorsVer/include/wektor3d.hpp

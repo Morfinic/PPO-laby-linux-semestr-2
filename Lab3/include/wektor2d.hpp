@@ -2,13 +2,11 @@
 
 class Wektor2D : public Wektor
 {
-    private:
-        float x;
-        float y;
     public:
-        Wektor2D(float x, float y);
-        virtual float dlugoscWektora(float x, float y);
-        virtual float skalarWektora(float x1, float y1, float x2, float y2);
-        float getX();
-        float getY();
+        Wektor2D(int _x, int _y);
+        void print();
+        float dlugosc();
+        void mnozeniePrzezLiczbe(int liczba);
+        Wektor2D operator+(Wektor2D &w);
+        Wektor2D operator-(Wektor2D &w);
 };

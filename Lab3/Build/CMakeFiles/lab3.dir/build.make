@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/morfinic/Programming/PPO-laby-linux/Lab3
+CMAKE_SOURCE_DIR = /home/morfinic/Programming/PPO-laby-linux/Lab3/vectorsVer
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/morfinic/Programming/PPO-laby-linux/Lab3/Build
+CMAKE_BINARY_DIR = /home/morfinic/Programming/PPO-laby-linux/Lab3/vectorsVer/Build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/lab3.dir/depend.make
@@ -72,44 +72,76 @@ include CMakeFiles/lab3.dir/flags.make
 CMakeFiles/lab3.dir/main.cpp.o: CMakeFiles/lab3.dir/flags.make
 CMakeFiles/lab3.dir/main.cpp.o: ../main.cpp
 CMakeFiles/lab3.dir/main.cpp.o: CMakeFiles/lab3.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/morfinic/Programming/PPO-laby-linux/Lab3/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/lab3.dir/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lab3.dir/main.cpp.o -MF CMakeFiles/lab3.dir/main.cpp.o.d -o CMakeFiles/lab3.dir/main.cpp.o -c /home/morfinic/Programming/PPO-laby-linux/Lab3/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/morfinic/Programming/PPO-laby-linux/Lab3/vectorsVer/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/lab3.dir/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lab3.dir/main.cpp.o -MF CMakeFiles/lab3.dir/main.cpp.o.d -o CMakeFiles/lab3.dir/main.cpp.o -c /home/morfinic/Programming/PPO-laby-linux/Lab3/vectorsVer/main.cpp
 
 CMakeFiles/lab3.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lab3.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/morfinic/Programming/PPO-laby-linux/Lab3/main.cpp > CMakeFiles/lab3.dir/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/morfinic/Programming/PPO-laby-linux/Lab3/vectorsVer/main.cpp > CMakeFiles/lab3.dir/main.cpp.i
 
 CMakeFiles/lab3.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lab3.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/morfinic/Programming/PPO-laby-linux/Lab3/main.cpp -o CMakeFiles/lab3.dir/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/morfinic/Programming/PPO-laby-linux/Lab3/vectorsVer/main.cpp -o CMakeFiles/lab3.dir/main.cpp.s
+
+CMakeFiles/lab3.dir/include/wektor.cpp.o: CMakeFiles/lab3.dir/flags.make
+CMakeFiles/lab3.dir/include/wektor.cpp.o: ../include/wektor.cpp
+CMakeFiles/lab3.dir/include/wektor.cpp.o: CMakeFiles/lab3.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/morfinic/Programming/PPO-laby-linux/Lab3/vectorsVer/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/lab3.dir/include/wektor.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lab3.dir/include/wektor.cpp.o -MF CMakeFiles/lab3.dir/include/wektor.cpp.o.d -o CMakeFiles/lab3.dir/include/wektor.cpp.o -c /home/morfinic/Programming/PPO-laby-linux/Lab3/vectorsVer/include/wektor.cpp
+
+CMakeFiles/lab3.dir/include/wektor.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lab3.dir/include/wektor.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/morfinic/Programming/PPO-laby-linux/Lab3/vectorsVer/include/wektor.cpp > CMakeFiles/lab3.dir/include/wektor.cpp.i
+
+CMakeFiles/lab3.dir/include/wektor.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lab3.dir/include/wektor.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/morfinic/Programming/PPO-laby-linux/Lab3/vectorsVer/include/wektor.cpp -o CMakeFiles/lab3.dir/include/wektor.cpp.s
 
 CMakeFiles/lab3.dir/include/wektor2d.cpp.o: CMakeFiles/lab3.dir/flags.make
 CMakeFiles/lab3.dir/include/wektor2d.cpp.o: ../include/wektor2d.cpp
 CMakeFiles/lab3.dir/include/wektor2d.cpp.o: CMakeFiles/lab3.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/morfinic/Programming/PPO-laby-linux/Lab3/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/lab3.dir/include/wektor2d.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lab3.dir/include/wektor2d.cpp.o -MF CMakeFiles/lab3.dir/include/wektor2d.cpp.o.d -o CMakeFiles/lab3.dir/include/wektor2d.cpp.o -c /home/morfinic/Programming/PPO-laby-linux/Lab3/include/wektor2d.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/morfinic/Programming/PPO-laby-linux/Lab3/vectorsVer/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/lab3.dir/include/wektor2d.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lab3.dir/include/wektor2d.cpp.o -MF CMakeFiles/lab3.dir/include/wektor2d.cpp.o.d -o CMakeFiles/lab3.dir/include/wektor2d.cpp.o -c /home/morfinic/Programming/PPO-laby-linux/Lab3/vectorsVer/include/wektor2d.cpp
 
 CMakeFiles/lab3.dir/include/wektor2d.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lab3.dir/include/wektor2d.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/morfinic/Programming/PPO-laby-linux/Lab3/include/wektor2d.cpp > CMakeFiles/lab3.dir/include/wektor2d.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/morfinic/Programming/PPO-laby-linux/Lab3/vectorsVer/include/wektor2d.cpp > CMakeFiles/lab3.dir/include/wektor2d.cpp.i
 
 CMakeFiles/lab3.dir/include/wektor2d.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lab3.dir/include/wektor2d.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/morfinic/Programming/PPO-laby-linux/Lab3/include/wektor2d.cpp -o CMakeFiles/lab3.dir/include/wektor2d.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/morfinic/Programming/PPO-laby-linux/Lab3/vectorsVer/include/wektor2d.cpp -o CMakeFiles/lab3.dir/include/wektor2d.cpp.s
+
+CMakeFiles/lab3.dir/include/wektor3d.cpp.o: CMakeFiles/lab3.dir/flags.make
+CMakeFiles/lab3.dir/include/wektor3d.cpp.o: ../include/wektor3d.cpp
+CMakeFiles/lab3.dir/include/wektor3d.cpp.o: CMakeFiles/lab3.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/morfinic/Programming/PPO-laby-linux/Lab3/vectorsVer/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/lab3.dir/include/wektor3d.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lab3.dir/include/wektor3d.cpp.o -MF CMakeFiles/lab3.dir/include/wektor3d.cpp.o.d -o CMakeFiles/lab3.dir/include/wektor3d.cpp.o -c /home/morfinic/Programming/PPO-laby-linux/Lab3/vectorsVer/include/wektor3d.cpp
+
+CMakeFiles/lab3.dir/include/wektor3d.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lab3.dir/include/wektor3d.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/morfinic/Programming/PPO-laby-linux/Lab3/vectorsVer/include/wektor3d.cpp > CMakeFiles/lab3.dir/include/wektor3d.cpp.i
+
+CMakeFiles/lab3.dir/include/wektor3d.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lab3.dir/include/wektor3d.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/morfinic/Programming/PPO-laby-linux/Lab3/vectorsVer/include/wektor3d.cpp -o CMakeFiles/lab3.dir/include/wektor3d.cpp.s
 
 # Object files for target lab3
 lab3_OBJECTS = \
 "CMakeFiles/lab3.dir/main.cpp.o" \
-"CMakeFiles/lab3.dir/include/wektor2d.cpp.o"
+"CMakeFiles/lab3.dir/include/wektor.cpp.o" \
+"CMakeFiles/lab3.dir/include/wektor2d.cpp.o" \
+"CMakeFiles/lab3.dir/include/wektor3d.cpp.o"
 
 # External object files for target lab3
 lab3_EXTERNAL_OBJECTS =
 
 lab3: CMakeFiles/lab3.dir/main.cpp.o
+lab3: CMakeFiles/lab3.dir/include/wektor.cpp.o
 lab3: CMakeFiles/lab3.dir/include/wektor2d.cpp.o
+lab3: CMakeFiles/lab3.dir/include/wektor3d.cpp.o
 lab3: CMakeFiles/lab3.dir/build.make
 lab3: CMakeFiles/lab3.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/morfinic/Programming/PPO-laby-linux/Lab3/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable lab3"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/morfinic/Programming/PPO-laby-linux/Lab3/vectorsVer/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable lab3"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/lab3.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -121,6 +153,6 @@ CMakeFiles/lab3.dir/clean:
 .PHONY : CMakeFiles/lab3.dir/clean
 
 CMakeFiles/lab3.dir/depend:
-	cd /home/morfinic/Programming/PPO-laby-linux/Lab3/Build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/morfinic/Programming/PPO-laby-linux/Lab3 /home/morfinic/Programming/PPO-laby-linux/Lab3 /home/morfinic/Programming/PPO-laby-linux/Lab3/Build /home/morfinic/Programming/PPO-laby-linux/Lab3/Build /home/morfinic/Programming/PPO-laby-linux/Lab3/Build/CMakeFiles/lab3.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/morfinic/Programming/PPO-laby-linux/Lab3/vectorsVer/Build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/morfinic/Programming/PPO-laby-linux/Lab3/vectorsVer /home/morfinic/Programming/PPO-laby-linux/Lab3/vectorsVer /home/morfinic/Programming/PPO-laby-linux/Lab3/vectorsVer/Build /home/morfinic/Programming/PPO-laby-linux/Lab3/vectorsVer/Build /home/morfinic/Programming/PPO-laby-linux/Lab3/vectorsVer/Build/CMakeFiles/lab3.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/lab3.dir/depend
 

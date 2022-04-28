@@ -1,6 +1,17 @@
+#pragma once
+
 class Wektor
 {
+    private:
+        int x;
+        int y;
     public:
-        virtual float dlugoscWektora(float x, float y) = 0;
-        virtual float skalarWektora(float x1, float y1, float x2, float y2) = 0;
+        Wektor(int _x, int _y);
+        int getX();
+        int getY();
+        void setX(int _x);
+        void setY(int _y);
+        virtual float dlugosc() = 0;
+        virtual void print() = 0;
+        virtual void mnozeniePrzezLiczbe(int liczba) = 0;
 };

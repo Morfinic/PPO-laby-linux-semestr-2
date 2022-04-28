@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/morfinic/Programming/PPO-laby-linux/Lab3
+CMAKE_SOURCE_DIR = /home/morfinic/Programming/PPO-laby-linux/Lab3/vectorsVer
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/morfinic/Programming/PPO-laby-linux/Lab3/Build
+CMAKE_BINARY_DIR = /home/morfinic/Programming/PPO-laby-linux/Lab3/vectorsVer/Build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/morfinic/Programming/PPO-laby-linux/Lab3/Build/CMakeFiles /home/morfinic/Programming/PPO-laby-linux/Lab3/Build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/morfinic/Programming/PPO-laby-linux/Lab3/vectorsVer/Build/CMakeFiles /home/morfinic/Programming/PPO-laby-linux/Lab3/vectorsVer/Build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/morfinic/Programming/PPO-laby-linux/Lab3/Build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/morfinic/Programming/PPO-laby-linux/Lab3/vectorsVer/Build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -129,6 +129,30 @@ lab3/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab3.dir/build.make CMakeFiles/lab3.dir/build
 .PHONY : lab3/fast
 
+include/wektor.o: include/wektor.cpp.o
+.PHONY : include/wektor.o
+
+# target to build an object file
+include/wektor.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab3.dir/build.make CMakeFiles/lab3.dir/include/wektor.cpp.o
+.PHONY : include/wektor.cpp.o
+
+include/wektor.i: include/wektor.cpp.i
+.PHONY : include/wektor.i
+
+# target to preprocess a source file
+include/wektor.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab3.dir/build.make CMakeFiles/lab3.dir/include/wektor.cpp.i
+.PHONY : include/wektor.cpp.i
+
+include/wektor.s: include/wektor.cpp.s
+.PHONY : include/wektor.s
+
+# target to generate assembly for a file
+include/wektor.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab3.dir/build.make CMakeFiles/lab3.dir/include/wektor.cpp.s
+.PHONY : include/wektor.cpp.s
+
 include/wektor2d.o: include/wektor2d.cpp.o
 .PHONY : include/wektor2d.o
 
@@ -152,6 +176,30 @@ include/wektor2d.s: include/wektor2d.cpp.s
 include/wektor2d.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab3.dir/build.make CMakeFiles/lab3.dir/include/wektor2d.cpp.s
 .PHONY : include/wektor2d.cpp.s
+
+include/wektor3d.o: include/wektor3d.cpp.o
+.PHONY : include/wektor3d.o
+
+# target to build an object file
+include/wektor3d.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab3.dir/build.make CMakeFiles/lab3.dir/include/wektor3d.cpp.o
+.PHONY : include/wektor3d.cpp.o
+
+include/wektor3d.i: include/wektor3d.cpp.i
+.PHONY : include/wektor3d.i
+
+# target to preprocess a source file
+include/wektor3d.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab3.dir/build.make CMakeFiles/lab3.dir/include/wektor3d.cpp.i
+.PHONY : include/wektor3d.cpp.i
+
+include/wektor3d.s: include/wektor3d.cpp.s
+.PHONY : include/wektor3d.s
+
+# target to generate assembly for a file
+include/wektor3d.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab3.dir/build.make CMakeFiles/lab3.dir/include/wektor3d.cpp.s
+.PHONY : include/wektor3d.cpp.s
 
 main.o: main.cpp.o
 .PHONY : main.o
@@ -186,9 +234,15 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... lab3"
+	@echo "... include/wektor.o"
+	@echo "... include/wektor.i"
+	@echo "... include/wektor.s"
 	@echo "... include/wektor2d.o"
 	@echo "... include/wektor2d.i"
 	@echo "... include/wektor2d.s"
+	@echo "... include/wektor3d.o"
+	@echo "... include/wektor3d.i"
+	@echo "... include/wektor3d.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

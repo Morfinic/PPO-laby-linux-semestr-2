@@ -1,6 +1,10 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/lab3.dir/include/wektor.cpp.o"
+  "CMakeFiles/lab3.dir/include/wektor.cpp.o.d"
   "CMakeFiles/lab3.dir/include/wektor2d.cpp.o"
   "CMakeFiles/lab3.dir/include/wektor2d.cpp.o.d"
+  "CMakeFiles/lab3.dir/include/wektor3d.cpp.o"
+  "CMakeFiles/lab3.dir/include/wektor3d.cpp.o.d"
   "CMakeFiles/lab3.dir/main.cpp.o"
   "CMakeFiles/lab3.dir/main.cpp.o.d"
   "lab3"

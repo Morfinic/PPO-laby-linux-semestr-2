@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/morfinic/Programming/PPO-laby-linux/Lab3/Build"
+			"value" : "/home/morfinic/Programming/PPO-laby-linux/Lab3/vectorsVer/Build"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -607,7 +607,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/morfinic/Programming/PPO-laby-linux/Lab3"
+			"value" : "/home/morfinic/Programming/PPO-laby-linux/Lab3/vectorsVer"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -1203,7 +1203,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/morfinic/Programming/PPO-laby-linux/Lab3/Build"
+			"value" : "/home/morfinic/Programming/PPO-laby-linux/Lab3/vectorsVer/Build"
 		},
 		{
 			"name" : "lab3_IS_TOP_LEVEL",
@@ -1227,7 +1227,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/morfinic/Programming/PPO-laby-linux/Lab3"
+			"value" : "/home/morfinic/Programming/PPO-laby-linux/Lab3/vectorsVer"
 		}
 	],
 	"kind" : "cache",
