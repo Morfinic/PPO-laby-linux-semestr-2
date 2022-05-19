@@ -45,8 +45,8 @@ X Stack<X>::pop()
         std::cout << "Underflow\n";
         exit(0);
     }
-
-    return tab[top--];
+    else
+        return tab[top--];
 };
 
 template <class X>

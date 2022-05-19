@@ -1,0 +1,1 @@
+/usr/bin/c++ -O3 -DNDEBUG CMakeFiles/lab5.dir/main.cpp.o CMakeFiles/lab5.dir/include/ball.cpp.o CMakeFiles/lab5.dir/include/cuboid.cpp.o CMakeFiles/lab5.dir/include/pyramid.cpp.o -o lab5 

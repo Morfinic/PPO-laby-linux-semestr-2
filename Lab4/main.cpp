@@ -166,5 +166,7 @@ int main()
     std::cout << "Is s2 full: " << s2.isFull() << "\n";
     s2.push('c');
 
+    std::cout << "check\n";
+
     return 0;
 }
